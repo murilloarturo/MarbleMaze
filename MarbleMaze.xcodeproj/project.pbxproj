@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D9524A1C98494C00A33177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D952491C98494B00A33177 /* AppDelegate.swift */; };
+		69D9524C1C98494C00A33177 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69D9524B1C98494C00A33177 /* GameScene.sks */; };
+		69D9524E1C98494C00A33177 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9524D1C98494C00A33177 /* GameScene.swift */; };
+		69D952501C98494C00A33177 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9524F1C98494C00A33177 /* GameViewController.swift */; };
+		69D952531C98494C00A33177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D952511C98494C00A33177 /* Main.storyboard */; };
+		69D952551C98494C00A33177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D952541C98494C00A33177 /* Assets.xcassets */; };
+		69D952581C98494C00A33177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D952561C98494C00A33177 /* LaunchScreen.storyboard */; };
+		69D952631C98494C00A33177 /* MarbleMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D952621C98494C00A33177 /* MarbleMazeTests.swift */; };
+		69D9526E1C98494C00A33177 /* MarbleMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D9526D1C98494C00A33177 /* MarbleMazeUITests.swift */; };
+		69D9527C1C9849DD00A33177 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 69D9527B1C9849DD00A33177 /* level1.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69D9525F1C98494C00A33177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D9523E1C98494B00A33177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D952451C98494B00A33177;
+			remoteInfo = MarbleMaze;
+		};
+		69D9526A1C98494C00A33177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D9523E1C98494B00A33177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D952451C98494B00A33177;
+			remoteInfo = MarbleMaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69D952461C98494B00A33177 /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D952491C98494B00A33177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69D9524B1C98494C00A33177 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		69D9524D1C98494C00A33177 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		69D9524F1C98494C00A33177 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		69D952521C98494C00A33177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69D952541C98494C00A33177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D952571C98494C00A33177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D952591C98494C00A33177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D9525E1C98494C00A33177 /* MarbleMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarbleMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D952621C98494C00A33177 /* MarbleMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleMazeTests.swift; sourceTree = "<group>"; };
+		69D952641C98494C00A33177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D952691C98494C00A33177 /* MarbleMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarbleMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D9526D1C98494C00A33177 /* MarbleMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleMazeUITests.swift; sourceTree = "<group>"; };
+		69D9526F1C98494C00A33177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D9527B1C9849DD00A33177 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D952431C98494B00A33177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9525B1C98494C00A33177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D952661C98494C00A33177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D9523D1C98494B00A33177 = {
+			isa = PBXGroup;
+			children = (
+				69D952481C98494B00A33177 /* MarbleMaze */,
+				69D952611C98494C00A33177 /* MarbleMazeTests */,
+				69D9526C1C98494C00A33177 /* MarbleMazeUITests */,
+				69D952471C98494B00A33177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69D952471C98494B00A33177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D952461C98494B00A33177 /* MarbleMaze.app */,
+				69D9525E1C98494C00A33177 /* MarbleMazeTests.xctest */,
+				69D952691C98494C00A33177 /* MarbleMazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D952481C98494B00A33177 /* MarbleMaze */ = {
+			isa = PBXGroup;
+			children = (
+				69D952491C98494B00A33177 /* AppDelegate.swift */,
+				69D9524B1C98494C00A33177 /* GameScene.sks */,
+				69D9524D1C98494C00A33177 /* GameScene.swift */,
+				69D9524F1C98494C00A33177 /* GameViewController.swift */,
+				69D952511C98494C00A33177 /* Main.storyboard */,
+				69D952541C98494C00A33177 /* Assets.xcassets */,
+				69D952561C98494C00A33177 /* LaunchScreen.storyboard */,
+				69D952591C98494C00A33177 /* Info.plist */,
+				69D9527B1C9849DD00A33177 /* level1.txt */,
+			);
+			path = MarbleMaze;
+			sourceTree = "<group>";
+		};
+		69D952611C98494C00A33177 /* MarbleMazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				69D952621C98494C00A33177 /* MarbleMazeTests.swift */,
+				69D952641C98494C00A33177 /* Info.plist */,
+			);
+			path = MarbleMazeTests;
+			sourceTree = "<group>";
+		};
+		69D9526C1C98494C00A33177 /* MarbleMazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69D9526D1C98494C00A33177 /* MarbleMazeUITests.swift */,
+				69D9526F1C98494C00A33177 /* Info.plist */,
+			);
+			path = MarbleMazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D952451C98494B00A33177 /* MarbleMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D952721C98494C00A33177 /* Build configuration list for PBXNativeTarget "MarbleMaze" */;
+			buildPhases = (
+				69D952421C98494B00A33177 /* Sources */,
+				69D952431C98494B00A33177 /* Frameworks */,
+				69D952441C98494B00A33177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarbleMaze;
+			productName = MarbleMaze;
+			productReference = 69D952461C98494B00A33177 /* MarbleMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69D9525D1C98494C00A33177 /* MarbleMazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D952751C98494C00A33177 /* Build configuration list for PBXNativeTarget "MarbleMazeTests" */;
+			buildPhases = (
+				69D9525A1C98494C00A33177 /* Sources */,
+				69D9525B1C98494C00A33177 /* Frameworks */,
+				69D9525C1C98494C00A33177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D952601C98494C00A33177 /* PBXTargetDependency */,
+			);
+			name = MarbleMazeTests;
+			productName = MarbleMazeTests;
+			productReference = 69D9525E1C98494C00A33177 /* MarbleMazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69D952681C98494C00A33177 /* MarbleMazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D952781C98494C00A33177 /* Build configuration list for PBXNativeTarget "MarbleMazeUITests" */;
+			buildPhases = (
+				69D952651C98494C00A33177 /* Sources */,
+				69D952661C98494C00A33177 /* Frameworks */,
+				69D952671C98494C00A33177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D9526B1C98494C00A33177 /* PBXTargetDependency */,
+			);
+			name = MarbleMazeUITests;
+			productName = MarbleMazeUITests;
+			productReference = 69D952691C98494C00A33177 /* MarbleMazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D9523E1C98494B00A33177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Kogimobile;
+				TargetAttributes = {
+					69D952451C98494B00A33177 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					69D9525D1C98494C00A33177 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 69D952451C98494B00A33177;
+					};
+					69D952681C98494C00A33177 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 69D952451C98494B00A33177;
+					};
+				};
+			};
+			buildConfigurationList = 69D952411C98494B00A33177 /* Build configuration list for PBXProject "MarbleMaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D9523D1C98494B00A33177;
+			productRefGroup = 69D952471C98494B00A33177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D952451C98494B00A33177 /* MarbleMaze */,
+				69D9525D1C98494C00A33177 /* MarbleMazeTests */,
+				69D952681C98494C00A33177 /* MarbleMazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D952441C98494B00A33177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D9527C1C9849DD00A33177 /* level1.txt in Resources */,
+				69D9524C1C98494C00A33177 /* GameScene.sks in Resources */,
+				69D952581C98494C00A33177 /* LaunchScreen.storyboard in Resources */,
+				69D952551C98494C00A33177 /* Assets.xcassets in Resources */,
+				69D952531C98494C00A33177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9525C1C98494C00A33177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D952671C98494C00A33177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D952421C98494B00A33177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D9524E1C98494C00A33177 /* GameScene.swift in Sources */,
+				69D952501C98494C00A33177 /* GameViewController.swift in Sources */,
+				69D9524A1C98494C00A33177 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D9525A1C98494C00A33177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D952631C98494C00A33177 /* MarbleMazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D952651C98494C00A33177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D9526E1C98494C00A33177 /* MarbleMazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D952601C98494C00A33177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D952451C98494B00A33177 /* MarbleMaze */;
+			targetProxy = 69D9525F1C98494C00A33177 /* PBXContainerItemProxy */;
+		};
+		69D9526B1C98494C00A33177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D952451C98494B00A33177 /* MarbleMaze */;
+			targetProxy = 69D9526A1C98494C00A33177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69D952511C98494C00A33177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D952521C98494C00A33177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69D952561C98494C00A33177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D952571C98494C00A33177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69D952701C98494C00A33177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		69D952711C98494C00A33177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D952731C98494C00A33177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarbleMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kogimobile.MarbleMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69D952741C98494C00A33177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarbleMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kogimobile.MarbleMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69D952761C98494C00A33177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MarbleMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kogimobile.MarbleMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarbleMaze.app/MarbleMaze";
+			};
+			name = Debug;
+		};
+		69D952771C98494C00A33177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarbleMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kogimobile.MarbleMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarbleMaze.app/MarbleMaze";
+			};
+			name = Release;
+		};
+		69D952791C98494C00A33177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MarbleMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kogimobile.MarbleMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarbleMaze;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69D9527A1C98494C00A33177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarbleMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kogimobile.MarbleMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarbleMaze;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D952411C98494B00A33177 /* Build configuration list for PBXProject "MarbleMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D952701C98494C00A33177 /* Debug */,
+				69D952711C98494C00A33177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D952721C98494C00A33177 /* Build configuration list for PBXNativeTarget "MarbleMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D952731C98494C00A33177 /* Debug */,
+				69D952741C98494C00A33177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69D952751C98494C00A33177 /* Build configuration list for PBXNativeTarget "MarbleMazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D952761C98494C00A33177 /* Debug */,
+				69D952771C98494C00A33177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69D952781C98494C00A33177 /* Build configuration list for PBXNativeTarget "MarbleMazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D952791C98494C00A33177 /* Debug */,
+				69D9527A1C98494C00A33177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D9523E1C98494B00A33177 /* Project object */;
+}
